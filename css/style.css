@@ -216,3 +216,54 @@ footer {
     margin: 15px 20px;
     
 }
+.join{
+    
+    min-height: 600px;
+    background: url('../images/join__bg.jpg') no-repeat center center;
+    position: relative;
+    background-size: cover;
+    color: #fff;
+    margin-bottom: 50px;
+}
+.join::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: black;
+    opacity: 0.5;
+    z-index: 1;
+}
+.join__inner{
+    position: relative;
+  z-index: 3;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 150px;
+}
+.join__pretitle{
+    font-weight: 900;
+    margin-bottom: 50px;
+    font-size: 24px;
+}
+.join__title{
+ font-size: 75px;
+ font-weight: 900;
+ margin-bottom: 45px;
+}
+.join__title span{
+     color: red;
+}
+.join__link{
+    display: inline-block;
+    margin-top: 45px;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 30px 15px 30px;
+    background-color: rgb(233, 117, 10);
+    cursor: pointer;
+}
