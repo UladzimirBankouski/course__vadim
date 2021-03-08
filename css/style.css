@@ -94,8 +94,119 @@ li {
 
 
 
+.footer__main{
+    background-color: #141D28;
+    color: #fff;
+    line-height: 30px;
+}
+.footer__main--inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__main--about,
+.footer__main--post,
+.footer__main--contacts{
+    margin-top: 100px;
+    margin-bottom: 190px;
+    max-width: 370px;
+}
+.footer__main-title{
+    font-family: Montserrat;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 11px;
+    letter-spacing: 4.8px;
+    text-transform: uppercase;
+    color: #377DFF;
+    font-style: normal;
+    margin-bottom: 60px;
+}
+.footer__main--text{
+    margin-bottom: 45px;
+}
+.footer__main--social{
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.footer__main--link{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.footer__main--post:last-child{
+    border-bottom: none;
+}
+.footer__main--item{
+    margin-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    border-bottom: 1px solid #343D48;
+    position: relative;
+}
+
+.footer__main--item::before{
+    content: "";
+    position: absolute;
+    background-image: url(../images/arrow-right.svg);
+    color: #377DFF;
+    width: 24px;
+    height: 24px;
+    left: -10px;
+    top: 3px;
+}
+.footer__main--last{
+    border-bottom: none;
+}
+.footer__adress,
+.footer__phone,
+.footer__mail{
+    line-height: 30px;
+    margin-bottom: 10px;
+    padding-left: 25px;
+    position: relative;
+}
+.footer__adress::before,
+.footer__phone::before,
+.footer__mail::before{
+    content: "";
+    position: absolute;
+    color: #377DFF;
+    width: 34px;
+    height: 22px;
+    left: -5px;
+    top: 5px;
+}
+.footer__adress::before{
+    background-image: url(../images/location.svg);
+    background-repeat: no-repeat;
+}
+.footer__phone::before{
+    background-image: url(../images/call.svg);
+    background-repeat: no-repeat;
+}
+.footer__mail::before{
+    background-image: url(../images/mail.svg);
+    background-repeat: no-repeat;
+}
+.footer__mail{
+    margin-bottom: 15px;
+}
 
 
-
-
+.footer__copy{
+    background-color: #233142;
+    font-size: 12px;
+    line-height: 12px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    padding-top: 17px;
+    padding-bottom: 23px;
+    letter-spacing: 4px;
+}
 font-family: 'Montserrat', sans-serif;
