@@ -90,6 +90,96 @@ li {
 .header__main--menu:last-child{
     margin-right: 55px;
 }
+.advantages {
+    background-image: url(../images/advantages-bg.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 1000px;  
+}
+.advantages__title{
+    padding-top: 290px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: 31px;
+}
+.advantages__title--number{
+    font-size: 140px;
+    line-height: 180px;
+    color: rgba(255, 255, 255, 0.13);
+    margin-right: 53px;
+    padding-left: 10px;
+}
+.advantages__title--text{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    line-height: 80px;
+    color: #fff;
+    position: relative;
+}
+.advantages__title--text span{
+    color: #377DFF;
+}
+.advantages__title--text::before{
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 130px;
+    background: #377DFF;
+    left: -25px;
+    top: 14px;
+}
+.advantages__text{
+    max-width: 611px;
+    color: #fff;
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 60px;
+}
+.advantages__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.start__btn{
+    padding: 17px 37px;
+    font-size: 16px;
+    border: 2px solid #377DFF;
+    background-color: #377DFF;
+    
+}
+.learn__btn{
+    padding: 17px 37px;
+    font-size: 16px;
+    border: 2px solid #377DFF;
+    
+}
+.advantages__button--start,
+.advantages__button--learn{
+    border-radius: 35px;
+    margin-right: 14px;
+    cursor: pointer;
+}
+.advantages__button--start a,
+.advantages__button--learn a{
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
