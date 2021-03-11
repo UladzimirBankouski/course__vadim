@@ -165,11 +165,72 @@ li {
 .advantages__button--learn a{
     color: #fff;
 }
+.process__inner--title{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 46px;
+    color: #141D28;
+    margin-bottom: 72px;
+    position: relative;
+}
+.process__inner--title h3 span{
+    color: #377DFF;
+}
+.process__inner--title::before{
+    position: absolute;
+    content: "";
+    width: 3px;
+    height: 54px;
+    left: 378px;
+    top: 0;
+    background: #377DFF;
+}
+.process__inner--items{
+    display: flex;
+    justify-content: space-around;
+}
+.process__img{
+    width: 180px;
+    height: 180px; 
+}
 
-
-
-
-
+.process__img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+.process__inner--item p{
+    text-align: center;
+    margin-top: 16px;
+    font-family: Montserrat;
+    font-size: 30px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #141D28;
+    margin-bottom: 149px;
+}
+.process__item{
+    position: relative;
+}
+.process__item::before{
+    content: url(../images/arrow-down.svg);
+    width: 156px;
+    height: 26px;
+    position: absolute;
+    top: 90px;
+    left: -178px;
+}
+.process__item::after{
+    content: url(../images/arrow-up.svg);
+    width: 156px;
+    height: 26px;
+    position: absolute;
+    top: 70px;
+    right: -182px;
+}
 
 
 
