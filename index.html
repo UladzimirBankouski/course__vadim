@@ -7,6 +7,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
   </head>
@@ -69,22 +70,19 @@
                 <div class="advantages__title--number">
                   01
                 </div>
-                <div class="advantages__title--text">
+                <h2 class="advantages__title--text">
                 The Uniqe Creative <br>
                    <span>Design Agency</span>
-                </div>
+                </h2>
               </div>
               <div class="advantages__text">
-                Always on the lookout for the hi-tech advancements. Build not only a product that can sell well, but a platform through which to deliver it.
+                <p> Always on the lookout for the hi-tech advancements. Build not only a product that can sell well, but a platform through which to deliver it.</p>
               </div>
               <div class="advantages__buttons">
-                <div class="advantages__button--start start__btn">
-                  <a href="#">Start Now</a>
-                </div>
-                <div class="advantages__button--learn learn__btn">
-                  <a href="#">Learn More</a>
-                </div>
-
+                <a href="#" class="advantages__button--start start__btn">
+                  Start Now</a>                
+                <a href="#" class="advantages__button--learn learn__btn">
+                  Learn More</a>              
               </div>
             </div>
           </div>
@@ -190,8 +188,11 @@
               <div class="workers__items">
                 <div class="workers__item">
                   <div class="workers__image">
-                  <div class="workers__item--social">
                     <img  src="./images/worker--1.jpg" alt="worker" class="workers__item--img">
+                  <div class="workers__item--social">
+                    <a href="#">
+                      <img src="./images/workers--socail.svg" alt="social links">
+                    </a>
                   </div>
                   </div>
                       <div class="workers__item--title">
@@ -202,19 +203,30 @@
                         </p>                   
                 </div>
                 <div class="workers__item">
-                  <div class="workers__item--social">
-                    <img class="workers__image" src="./images/worker--2.jpg" alt="worker" class="workers__item--img">
+                  <div class="workers__image">
+                    <img  src="./images/worker--2.jpg" alt="worker" class="workers__item--img">
+                    <div class="workers__item--social">
+                      <a href="#">
+                        <img src="./images/workers--socail.svg" alt="social links">
+                      </a>
+                    </div>
+                  </div>
                       <div class="workers__item--title">
                         Jems W. Phelps
                       </div>  
                         <p class="workers__item--text">
                           UI Designer
                         </p>
-                  </div>
-                </div>
+                  </div>                
                 <div class="workers__item">
-                  <div class="workers__item--social">
-                    <img class="workers__image" src="./images/worker--3.jpg" alt="#" class="workers__item--img">
+                  <div class="workers__image">
+                    <img  src="./images/worker--3.jpg" alt="worker" class="workers__item--img">
+                    <div class="workers__item--social">
+                      <a href="#">
+                        <img src="./images/workers--socail.svg" alt="social links">
+                      </a>
+                    </div>
+                  </div>
                       <div class="workers__item--title">
                         Sharon A. Melton
                       </div>
@@ -271,6 +283,32 @@
           </div>
         </section>
         <!-- /.reasons -->
+        <!-- Start /.Work -->
+        <section class="work">
+          <div class="work__items">
+            <div class="work__item">
+              <a href="#" class="work__link">
+                <img src="./images/work__1.jpg" alt="work" class="work__img">
+              </a>
+            </div>
+            <div class="work__item">
+              <a href="" class="work__link">
+                <img src="./images/work__2.jpg" alt="work" class="work__img">
+              </a>
+            </div>
+            <div class="work__item">
+              <a href="#" class="work__link">
+                <img src="./images/work__3.jpg" alt="work" class="work__img">
+              </a>
+            </div>
+            <div class="work__item">
+              <a href="#" class="work__link">
+                <img src="./images/work__4.jpg" alt="work" class="work__img">
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- End /.Work -->
       </div>
       <!-- End Main -->
       <footer class="footer">
@@ -348,5 +386,6 @@
       </footer>
     </div>
     </div>
+    <script type="text/javascript"  src="./js/slick.min.js"></script>
   </body>
 </html>
