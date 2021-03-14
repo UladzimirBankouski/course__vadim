@@ -358,19 +358,22 @@ li {
     margin-right: 5px;
 }
 .workers__image{
+    max-width: 287px;
     width: 100%;
     max-height: 357px;
     margin-bottom: 35px;
     position: relative;
 }
-/* .workers__image::before{
-    content: url(../images/workers--socail.svg);
+/* .workers__item--social{
+    display: none;
+    content: "";
     position: absolute;
     width: 287px;
     height: 50px;
     bottom: 0;
     left: 0;
     background: #377DFF;
+    background-image: url(../images/workers--socail.svg);
     opacity: 0.9;
 } */
 .workers__item--title{
@@ -393,8 +396,94 @@ li {
     margin-bottom: 50px;
 }
 /* End Workers */
+/* Start Reasons */
+.reasons{
+    height: 100%;
+    position: relative;
+    background-image: url(../images/reason--bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    /*  */
+}
+.reasons::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #F7F7F7;
+    opacity: 0.9;
+}
+.reasons__inner{
+    position: relative;
+    z-index: 5;
+    padding-top: 150px;
+    padding-bottom: 145px;
+    text-align: left;
+}
+.reasons__title{
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 86px;
+}
+.reasons__title::before{
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 92px;
+    top: 0;
+    left: 5px;
+    background: #377dff;
+}
+.reasons__title h3{
+    font-family: Montserrat;
+    font-weight: normal;
+    line-height: 46px;
+    letter-spacing: 1px;
+    color: #233142;
+    font-size: 40px;
+}
+.reasons__title span{
+    font-weight: 600;
+    color: #377DFF;
+}
+.reasons__count{
+    font-family: Montserrat;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: 44px;
+    margin-bottom: 38px;
+}
+.reasons__count:hover{
+    color: #377dff;
+}
+.reasons__item--title{
+    font-family: Montserrat;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #233142;
+    font-size: 16px;
+    margin-bottom: 28px;
+}
+.reasons__item--text{
+    max-width: 567px;
+    font-family: Poppins;
+    line-height: 30px;
+    color: #5C6F87;
+    font-size: 16px;
+    margin-bottom: 46px;
+}
 
 
+
+
+
+
+
+
+
+/* End Reasons */
 
 
 .footer__main{
