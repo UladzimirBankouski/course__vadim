@@ -4,174 +4,493 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/slick.css">
     <link rel="stylesheet" href="./css/style.css" />
     <title>Document</title>
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <div class="header__inner">
-          <div class="header__logo">
-            <a href="#" class="header__logo-link">
-              training<span class="header__logo-span">studio</span>
-            </a>
+      <div class="header__inner">
+          <div class="header__contacts">
+            <div class="container">
+              <div class="header__contacts--inner">
+                <div class="header__contacts--tel">
+                  <a href="tel:+123456789">+123 456 789</a>
+                </div>
+                <div class="header__contacts--social">
+                  <a href="#" class="header__contacts--link">
+                    <img src="./images/instagram.svg" alt="Instagram">
+                  </a>
+                  <a href="#" class="header__contacts--link">
+                    <img src="./images/dribbble.svg" alt="dribbble">
+                  </a>
+                  <a href="#" class="header__contacts--link">
+                    <img src="./images/twitter.svg" alt="Twitter">
+                  </a>
+                  <a href="#" class="header__contacts--link">
+                    <img src="./images/youtube.svg" alt="Youtube">
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div class="header__menu">
-            <ul>
-              <li class="header__menu-item">
-                <a href="#" class="header__menu-link">home</a>
-              </li>
-              <li class="header__menu-item">
-                <a href="#" class="header__menu-link">about</a>
-              </li>
-              <li class="header__menu-item">
-                <a href="#" class="header__menu-link">classes</a>
-              </li>
-              <li class="header__menu-item">
-                <a href="#" class="header__menu-link">shedules</a>
-              </li>
-              <li class="header__menu-item">
-                <a href="#" class="header__menu-link">contact</a>
-              </li>
-              <li class="header__menu-item">
-                <button class="header__menu-btn">sign up</button>
-              </li>
-            </ul>
+          <div class="header__main">
+            <div class="container">
+              <div class="header__main--inner">
+                <div class="header__main--name">
+                  <a href="#" class="header__main--logo">
+                    <img src="./images/logo.png" alt="Logo">
+                  </a>
+                </div>
+                <nav class="header__main--menu">
+                  <ul>
+                    <li><a href="#" class="header__main--item">Home</a></li>
+                    <li><a href="#" class="header__main--item">Pages</a></li>
+                    <li><a href="#" class="header__main--item">Services</a></li>
+                    <li><a href="#" class="header__main--item">Portfolio</a></li>
+                    <li><a href="#" class="header__main--item">Blog</a></li>
+                    <li><a href="#" class="header__main--item">Contact Us</a></li>
+                  </ul>
+                </nav>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
+      <!-- </div> -->
     </header>
-    <!-- /.header -->
     <div class="wrapper">
-      <div class="content">
-        <section class="join">
+      <div class="main">
+        <section class="advantages">
           <div class="container">
-            <div class="join__inner">
-              <h3 class="join__pretitle">work harder, get stronger</h3>
-              <h1 class="join__title">easy with your <span>gym</span></h1>
-              <a href="#" class="join__link">become a member</a>
-            </div>
-          </div>
-        </section>
-        <!-- /.join -->
-        <section class="testimonials">
-          <div class="container">
-            <div class="testimonials__header">
-              <a href="#" class="testimonials__link">Testimonials</a>
-              <h2 class="testimonials__title">What they say about us</h2>
-            </div>
-            <div class="testimonials__img">
-              <img src="./images/quote.svg" alt="quote" />
-            </div>
-            <div class="testimonials__quote">
-              <blockquote>
-                "Ut elementum a elit sad tristique. Pellentesque sed semper
-                erat. Orci varius natoque penatibus et magnis dis parturient
-                montes, nascetur ridiculus mus. Aenean quam erat, rutrum ut
-                malesuada"
-              </blockquote>
-            </div>
-            <div class="testimonials__author">
-              <p class="testimonials__name">William Smith</p>
-              <span class="testimonials__position"> New Co-founder </span>
-            </div>
-            <div class="testimonials__dots">
-              <div class="testimonial__dot testimonial__dot-first"></div>
-              <div class="testimonial__dot"></div>
-              <div class="testimonial__dot"></div>
-            </div>
-          </div>
-        </section>
-        <!-- /.section__one -->
-        <section class="quality">
-          <div class="container">
-            <div class="quality__header">
-              <a href="#" class="quality__link">Best Quality for you</a>
-              <h2 class="quality__title">Cloud Features</h2>
-            </div>
-            <div class="quality__inner">
-              <div class="quality__item item-left">
-                <img src="./images/levels.svg" alt="levels" class="item__img" />
-                <h3 class="item__title">Load Balanced</h3>
-                <p class="item__text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Adipisci alias dignissimos, voluptatem quos eum labore! Vitae
-                  laudantium doloribus dolorem facere?
-                </p>
+            <div class="advantages__inner">
+              <div class="advantages__title">
+                <div class="advantages__title--number">
+                  01
+                </div>
+                <h2 class="advantages__title--text">
+                The Uniqe Creative <br>
+                   <span>Design Agency</span>
+                </h2>
               </div>
-              <div class="quality__item item-right">
-                <img src="./images/levels.svg" alt="levels" class="item__img" />
-                <h3 class="item__title">99.9% Uptime Guaranteed</h3>
-                <p class="item__text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Adipisci alias dignissimos, voluptatem quos eum labore! Vitae
-                  laudantium doloribus dolorem facere?
-                </p>
+              <div class="advantages__text">
+                <p> Always on the lookout for the hi-tech advancements. Build not only a product that can sell well, but a platform through which to deliver it.</p>
               </div>
-              <div class="quality__item item-left">
-                <img src="./images/levels.svg" alt="levels" class="item__img" />
-                <h3 class="item__title">Top Reliability</h3>
-                <p class="item__text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Adipisci alias dignissimos, voluptatem quos eum labore! Vitae
-                  laudantium doloribus dolorem facere?
-                </p>
-              </div>
-              <div class="quality__item item-right">
-                <img src="./images/levels.svg" alt="levels" class="item__img" />
-                <h3 class="item__title">High Security</h3>
-                <p class="item__text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Adipisci alias dignissimos, voluptatem quos eum labore! Vitae
-                  laudantium doloribus dolorem facere?
-                </p>
-              </div>
-              <div class="quality__item item-left">
-                <img src="./images/levels.svg" alt="levels" class="item__img" />
-                <h3 class="item__title">Quality Hardwares</h3>
-                <p class="item__text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Adipisci alias dignissimos, voluptatem quos eum labore! Vitae
-                  laudantium doloribus dolorem facere?
-                </p>
-              </div>
-              <div class="quality__item item-right">
-                <img src="./images/levels.svg" alt="levels" class="item__img" />
-                <h3 class="item__title">Network Solutions</h3>
-                <p class="item__text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Adipisci alias dignissimos, voluptatem quos eum labore! Vitae
-                  laudantium doloribus dolorem facere?
-                </p>
+              <div class="advantages__buttons">
+                <a href="#" class="advantages__button--start start__btn">
+                  Start Now</a>                
+                <a href="#" class="advantages__button--learn learn__btn">
+                  Learn More</a>              
               </div>
             </div>
           </div>
         </section>
-        <!-- /.quality -->
+        <!-- Section Advantages -->
+        <section class="process">
+          <div class="container">
+            <div class="process__inner">
+              <div class="process__inner--title">
+                <h3><span>How</span> we Works</h3>
+              </div>
+              <div class="process__inner--items">
+                <div class="process__inner--item">
+                  <div class="process__img">
+                    <img src="./images/plan-img.jpg" alt="Planning" >
+                  </div>
+                  <p>Planning</p>
+                </div>
+                <div class="process__inner--item process__item">
+                  <div class="process__img">
+                    <img src="./images/design-img .jpg" alt="Design" >
+                  </div>
+                  <p>Design</p>
+                </div>
+                <div class="process__inner--item">
+                  <div class="process__img">
+                    <img src="./images/dev-img.jpg" alt="Development" >
+                  </div>
+                  <p>Development</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="features">
+          <div class="container">
+            <div class="features__items">
+              <div class="features__item features__item--first">
+                <h4 class="features__item--title">
+                  SEO Ready Code
+                </h4>
+                <p class="features__item--text">
+                  Tincidunt felis dignissim justo congue, non rutrum tortor volutpat.
+                </p>  
+              </div>
+              <div class="features__item features__item--second">
+                <h4 class="features__item--title">
+                  Fully Responsive
+                </h4>
+                <p class="features__item--text">
+                  Fully responsive on notebook, tablets and smartphones ant other.
+                </p>
+              </div>
+              <div class="features__item features__item--third">
+                <h4 class="features__item--title">
+                  Awesome Features
+                </h4>
+                <p class="features__item--text">
+                  Easy-to-use, dynamic colors, grid, video, map and much more.
+                </p>
+              </div>
+              <div class="features__item features__item--fourth">
+                <h4 class="features__item--title">
+                  5-star-support
+                </h4>
+                <p class="features__item--text">
+                  Always ready to help you create the best solution .
+                </p>
+              </div>
+              <div class="features__item features__item--fifth">
+                <h4 class="features__item--title">
+                  High Customizibility
+                </h4>
+                <p class="features__item--text">
+                  Create, display everything that you want in few seconds.
+                </p>
+              </div>
+              <div class="features__item features__item--sixth">
+                <h4 class="features__item--title">
+                  Up-to-date Software
+                </h4>
+                <p class="features__item--text">
+                  lorem er dolor sit amet, teso adipiscing elit. Mauris.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- /.features -->
+        <section class="workers">
+          <div class="container">
+            <div class="workers__inner">
+              <div class="workers__view">
+                <div class="workers__view--title">
+                  <h3>
+                    <span>Our</span> Best Workers
+                  </h3>
+                </div>
+                <div class="workers__btn">
+                  <a href="#">view team</a>
+                </div>
+              </div>
+              <div class="workers__items">
+                <div class="workers__item">
+                  <div class="workers__image">
+                    <img  src="./images/worker--1.jpg" alt="worker" class="workers__item--img">
+                  <div class="workers__item--social">
+                    <a href="#">
+                      <img src="./images/workers--socail.svg" alt="social links">
+                    </a>
+                  </div>
+                  </div>
+                      <div class="workers__item--title">
+                        Gary D. Greenwell
+                      </div>
+                        <p class="workers__item--text">
+                          Head of SEO
+                        </p>                   
+                </div>
+                <div class="workers__item">
+                  <div class="workers__image">
+                    <img  src="./images/worker--2.jpg" alt="worker" class="workers__item--img">
+                    <div class="workers__item--social">
+                      <a href="#">
+                        <img src="./images/workers--socail.svg" alt="social links">
+                      </a>
+                    </div>
+                  </div>
+                      <div class="workers__item--title">
+                        Jems W. Phelps
+                      </div>  
+                        <p class="workers__item--text">
+                          UI Designer
+                        </p>
+                  </div>                
+                <div class="workers__item">
+                  <div class="workers__image">
+                    <img  src="./images/worker--3.jpg" alt="worker" class="workers__item--img">
+                    <div class="workers__item--social">
+                      <a href="#">
+                        <img src="./images/workers--socail.svg" alt="social links">
+                      </a>
+                    </div>
+                  </div>
+                      <div class="workers__item--title">
+                        Sharon A. Melton
+                      </div>
+                        <p class="workers__item--text">
+                          Web Designer
+                        </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- /.workers -->
+        <section class="reasons" >
+          <div class="container">
+            <div class="reasons__inner">
+              <div class="reasons__title">
+                <h3>Few Reasons <br><span>Why Choose Us</span> </h3>
+              </div>
+              <div class="reasons__item">
+                <div class="reasons__count">
+                  .01
+                </div>
+                <div class="reasons__item--title">
+                  Clients
+                </div>
+                <div class="reasons__item--text">
+                  Aliquam eu ante ante. Cras rutrum massa lacinia est lobortis maximus. Integer pellentesque nisl at odio porta iaculis. Vestibulum auctor libero a quam rhoncus.
+                </div>
+              </div>
+              <div class="reasons__item">
+                <div class="reasons__count reasons--active">
+                  .02
+                </div>
+                <div class="reasons__item--title">
+                  Projects
+                </div>
+                <div class="reasons__item--text">
+                  Aliquam eu ante ante. Cras rutrum massa lacinia est lobortis maximus. Integer pellentesque nisl at odio porta iaculis. Vestibulum auctor libero a quam rhoncus.
+                </div>
+              </div>
+              <div class="reasons__item">
+                <div class="reasons__count reasons--active">
+                  .03
+                </div>
+                <div class="reasons__item--title">
+                  Reporting & Analysis
+                </div>
+                <div class="reasons__item--text">
+                  Aliquam eu ante ante. Cras rutrum massa lacinia est lobortis maximus. Integer pellentesque nisl at odio porta iaculis. Vestibulum auctor libero a quam rhoncus.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- /.reasons -->
+        <!-- Start /.Work -->
+        <section class="work">
+          <div class="work__items">
+            <div class="work__item">
+              <a href="#" class="work__link">
+                <img src="./images/work__1.jpg" alt="work" class="work__img">
+              </a>
+            </div>
+            <div class="work__item">
+              <a href="" class="work__link">
+                <img src="./images/work__2.jpg" alt="work" class="work__img">
+              </a>
+            </div>
+            <div class="work__item">
+              <a href="#" class="work__link">
+                <img src="./images/work__3.jpg" alt="work" class="work__img">
+              </a>
+            </div>
+            <div class="work__item">
+              <a href="#" class="work__link">
+                <img src="./images/work__4.jpg" alt="work" class="work__img">
+              </a>
+            </div>
+          </div>
+        </section>
+        <!-- End /.Work -->
+        <!-- <section class="innovations">
+          <div class="container">
+            <div class="innovations__inner">
+              <div class="innovations__bg innovations__wrapper">
+                <img src="./images/innovation__bg.png" alt="Man">
+              </div> 
+              <div class="innovations__item">
+                <h1 class="innovation__title">
+                  A New Era of <br><span>Innovations</span>
+                </h1>
+                <p class="innovations__text">
+                  Always on the lookout for the hi-tech advancements. Build a product that will sell well
+                </p>
+                <div class="advantages__buttons">
+                  <a href="#" class="innovations__button--start start__btn">
+                    Start Now</a>                
+                  <a href="#" class="innovations__button--learn learn__btn">
+                    Learn More</a>              
+                </div>
+              </div>
+              
+            </div>
+          </div> -->
+          <!-- Ens ./innovations -->
+        </section>
+        <section class="news">
+          <div class="container">            
+            <div class="news__title">
+              <h3><span>Our</span> News</h3>
+            </div>
+              <div class="news__inner">
+                <div class="news__main">
+                  <a class="news__main--link" href="#">
+                    <div class="news__image">
+                    <img class="news__main--img" src="./images/news__main.jpg" alt="news">
+                    <div class="news__label">
+                      <p>Software</p>
+                    </div>
+                  </div>
+                    <div class="news__main--inner">
+                      <div class="news__main--title">
+                        Motion Animation And VR Headset
+                      </div>
+                      <div class="news__main--author">
+                        emmajohnson
+                      </div>
+                      <div class="news__main--date">
+                        May 17, 2019
+                      </div>
+                      <div class="news__main--text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum pariatur sit nam beatae minima. Earum esse delectus eos doloribus cumque, magni dolorum, deleniti reprehenderit cupiditate quia totam velit, tempore minima.
+                      </div>
+                      <div class="news__main--details">
+                        view details
+                      </div>
+                    </div>                    
+                  </a>
+                </div>
+                <div class="news__aside">
+              <div class="news__other">
+                <a href="#" class="news__other--link">
+                  <div class="news__other--img">
+                  <img src="./images/news__other-1.jpg" alt="news-tiser"> 
+                  <div class="news__label">
+                    <p>Security</p>
+                  </div>
+                </div>               
+                   <div class="news__other--description">
+                      <div class="news__other--title">
+                        Awesome Tips to Become CEO Of Big NetWork Startup
+                      </div>
+                      <div class="news__other--author">
+                        emmajohnson
+                      </div>
+                      <div class="news__other--date">
+                        May 17, 2019
+                      </div>
+                    </div>
+                </a>
+              </div>
+              <div class="news__other">
+                <a href="#" class="news__other--link">
+                  <div class="news__other--img">
+                  <img src="./images/news__other-2.jpg" alt="news-tiser">       
+                  <div class="news__label">
+                    <p>new</p>
+                  </div>      
+                </div>   
+                   <div class="news__other--description">
+                      <div class="news__other--title">
+                        Top 5 Amazing changing For The Social Media Industry
+                      </div>
+                      <div class="news__other--author">
+                        emmajohnson
+                      </div>
+                      <div class="news__other--date">
+                        May 17, 2019
+                      </div>
+                    </div>
+                </a>
+              </div>
+            </div>
+            </div>
+          </div>
+        </section>
       </div>
+      <!-- End Main -->
       <footer class="footer">
-        <div class="container">
-          <div class="footer__inner">
-            <div class="footer__msg">
-              <h3 class="footer__msg-title">Request a call back right now?</h3>
-              <div class="footer__msg-text">
-                Mauris ut dapibus velit cras interdum nisi ac urna tempor
-                mollis.
+        <div class="footer__main">
+          <div class="container">
+            <div class="footer__main--inner">
+              <div class="footer__main--about">
+                <h5 class="footer__main-title">
+                  about us
+                </h5>
+                <div class="footer__main--text">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet turpis venenatis nulla dignissim scelerisque. Ut volutpat maximus ligula.
+                </div>
+                <div class="footer__main--social">
+                  <a href="#" class="footer__main--link">
+                    <img src="./images/facebook.svg" alt="Facebook">
+                  </a>
+                  <a href="#" class="footer__main--link">
+                    <img src="./images/twitter.svg" alt="Twitter">
+                  </a>
+                  <a href="#" class="footer__main--link">
+                    <img src="./images/linedin.svg" alt="Linkedin">
+                  </a>
+                  <a href="#" class="footer__main--link">
+                    <img src="./images/instagram.svg" alt="Instagram">
+                  </a>
+                  <a href="#" class="footer__main--link">
+                    <img src="./images/youtube.svg" alt="Youtube">
+                  </a>
+                </div>
+              </div>
+              <div class="footer__main--post">
+                <h5 class="footer__main-title footer__post--title">
+                  recent post
+                </h5>
+                <div class="footer__main--item">
+                  Motion Animation And VR Headset
+                </div>
+                <div class="footer__main--item">
+                  Awesome Tips to Become CEO Of Big NetWork Startup
+                </div>
+                <div class="footer__main--item footer__main--last">
+                  Top 5 Amazing changing For The Social Media Industry
+                </div>                
+              </div>
+              <div class="footer__main--contacts">
+                <h5 class="footer__main-title">
+                  Contact us
+                </h5>
+                <div class="footer__main--contact">
+                  <div class="footer__adress">
+                    <p>Address:<br>
+                    53  Hilltop Drive,Tx 79022</p>
+                  </div>
+                  <div class="footer__phone">
+                    <p>
+                      Phone:<br>
+                      806-377-1600
+                    </p>
+                  </div>
+                  <div class="footer__mail">
+                    <p>
+                      Mail:<br>
+                      example@example.com
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
-            <div class="footer__btn">
-              <a href="#" class="footer__btn-contact">Contact us</a>
-            </div>
           </div>
+        </div>
+        <div class="footer__copy">
+          copyright &copy; 2021 webtech
         </div>
       </footer>
-      <!-- /.footer -->
     </div>
+    </div>
+    <script type="text/javascript"  src="./js/slick.min.js"></script>
   </body>
 </html>
